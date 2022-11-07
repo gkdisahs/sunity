@@ -38,6 +38,8 @@
         <activity android:name=".Activity.ForbidBehaviourActivity" />
         <activity android:name=".Activity.AnnouncementActivity" />
         <activity android:name=".Activity.LightbulbActivity"/>
+        <activity android:name=".Activity.TimetableActivity"/>
+
 
     </application>
 

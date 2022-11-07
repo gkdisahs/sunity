@@ -155,12 +155,8 @@ public class MainActivity extends BasicActivity {
         btn_calendar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                assert getActivity() != null;
-                getActivity().startActivity(new Intent(getActivity(),TimeTableFragment.class));
-            }
-
-            private Context getActivity() {
-                return null;
+                Intent intent = new Intent(MainActivity.this, TimetableActivity.class);
+                startActivity(intent);
             }
         });
 
