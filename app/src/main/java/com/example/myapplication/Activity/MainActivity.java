@@ -176,7 +176,7 @@ public class MainActivity extends BasicActivity {
     }
 
     public void onButtonClicked(View view){
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("홈페이지 주소 삽입"));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.suwon.ac.kr/"));
         startActivity(intent);
     }
 
