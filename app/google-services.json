@@ -1,33 +1,41 @@
 {
   "project_info": {
-    "project_number": "69344130004",
-    "project_id": "my-application-ca5c7",
-    "storage_bucket": "my-application-ca5c7.appspot.com"
+    "project_number": "1046858144962",
+    "project_id": "sunity-a3e24",
+    "storage_bucket": "sunity-a3e24.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:69344130004:android:54e3721c06cb5bbda7dc41",
+        "mobilesdk_app_id": "1:1046858144962:android:abd783471a227f9d876f5b",
         "android_client_info": {
-          "package_name": "com.example.myapplication"
+          "package_name": "com.example.sunity"
         }
       },
       "oauth_client": [
         {
-          "client_id": "69344130004-1grmnskng0jtad6f9avclu740rgva2q1.apps.googleusercontent.com",
+          "client_id": "1046858144962-gnbni95pq4oqqqmcqs4oesf3kinsgarm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sunity",
+            "certificate_hash": "96fd471e9ef12c0960bec5f086f8639af7c3d69d"
+          }
+        },
+        {
+          "client_id": "1046858144962-g8oreua6v5ognrui7fnebagnsh6k6i6g.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBuRRso_0P_UKkwOxHCxv2hdSWq7ujMnHQ"
+          "current_key": "AIzaSyCv5EY6bnGMCtjsShiD0JCmuVLQ7FyFm7k"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "69344130004-1grmnskng0jtad6f9avclu740rgva2q1.apps.googleusercontent.com",
+              "client_id": "1046858144962-g8oreua6v5ognrui7fnebagnsh6k6i6g.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

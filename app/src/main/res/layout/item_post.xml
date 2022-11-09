@@ -57,12 +57,12 @@
         android:layout_marginBottom="5dp"
         android:background="#C8C8C8"/>
 
-    <com.example.myapplication.view.ReadContentsView
+    <com.example.sunity.view.ReadContentsView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/readContentsView">
 
-    </com.example.myapplication.view.ReadContentsView>
+    </com.example.sunity.view.ReadContentsView>
 
   </LinearLayout>
 

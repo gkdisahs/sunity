@@ -21,12 +21,12 @@
         android:padding="10dp">
 
 
-        <com.example.myapplication.view.ReadContentsView
+        <com.example.sunity.view.ReadContentsView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/readContentsView">
 
-        </com.example.myapplication.view.ReadContentsView>
+        </com.example.sunity.view.ReadContentsView>
     </LinearLayout>
 </ScrollView>
 </RelativeLayout>

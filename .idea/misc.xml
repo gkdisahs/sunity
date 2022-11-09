@@ -48,10 +48,12 @@
         <entry key="..\:/AndroidStudio/MyApplication/app/src/main/res/layout/view_toolbar.xml" value="0.2734375" />
         <entry key="..\:/AndroidStudio/MyApplication/app/src/main/res/menu/post.xml" value="0.2734375" />
         <entry key="..\:/AndroidStudio/MyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1085" />
+        <entry key="..\:/AndroidStudio/Sunity/app/src/main/res/layout/activity_login.xml" value="0.20652173913043478" />
+        <entry key="..\:/AndroidStudio/Sunity/app/src/main/res/layout/activity_main.xml" value="0.1802536231884058" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17_PREVIEW" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
