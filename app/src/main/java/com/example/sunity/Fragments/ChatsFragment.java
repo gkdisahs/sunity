@@ -92,7 +92,7 @@ public class ChatsFragment extends Fragment {
                     Memberinfo memberinfo = snapshot.getValue(Memberinfo.class);
 
                     for(String id : userList){
-                        if (memberinfo.getId().equals(id)){
+                        if (id.equals(memberinfo.getId())){
                             if (mUsers.size() != 0){
                                 for (Memberinfo membrane1 : new ArrayList<>(mUsers)){
                                     if (!memberinfo.getId().equals(membrane1.getId())){
