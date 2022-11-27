@@ -82,7 +82,7 @@ public class ChatsFragment extends Fragment {
         mUsers = new ArrayList<>();
 
         reference = FirebaseDatabase.getInstance().getReference("Users");
-
+        //데이터베이스 연동
         reference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
