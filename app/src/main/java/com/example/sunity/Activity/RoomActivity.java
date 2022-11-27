@@ -59,7 +59,7 @@ public class RoomActivity extends BasicActivity {
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 Memberinfo memberinfo = dataSnapshot.getValue(Memberinfo.class);
                 username.setText(memberinfo.getUsername());
-                if (memberinfo.getImageURL().equals("default")){
+                if ("default".equals(memberinfo.getImageURL())){
                     profile_image.setImageResource(R.mipmap.ic_launcher);
                 }else {
 

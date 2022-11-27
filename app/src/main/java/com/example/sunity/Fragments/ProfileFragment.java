@@ -72,7 +72,7 @@ public class ProfileFragment extends Fragment {
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 Memberinfo memberinfo = dataSnapshot.getValue(Memberinfo.class);
                 username.setText(memberinfo.getUsername());
-                if (memberinfo.getImageURL().equals("default")){
+                if ("default".equals(memberinfo.getImageURL())){
                     image_profile.setImageResource(R.mipmap.ic_launcher);
                 } else
                     Glide.with(getContext()).load(memberinfo.getImageURL()).into(image_profile);

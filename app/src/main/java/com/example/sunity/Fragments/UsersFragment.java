@@ -1,5 +1,7 @@
 package com.example.sunity.Fragments;
 
+import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -78,6 +80,7 @@ public class UsersFragment extends Fragment {
                 .endAt(s+"\uf8ff");
 
         query.addValueEventListener(new ValueEventListener() {
+
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 mUsers.clear();
@@ -117,9 +120,10 @@ public class UsersFragment extends Fragment {
 
                         assert memberinfo != null;
                         assert firebaseUser != null;
-                        if (!memberinfo.getId().equals(firebaseUser.getUid())) {
+                        if (firebaseUser.getUid().equals(memberinfo.getId())) {
                             mUsers.add(memberinfo);
                         }
+
                     }
 
                     userAdapter = new UserAdapter(getContext(), mUsers, false);
